@@ -1,0 +1,12 @@
+<div class="header">
+    <header>
+        <div class="logo"><span>hh2o4</span></div>
+        <nav>
+            <ul>
+                <li> <a href="#">articles</a> </li>
+                <li> <a href="#">contact</a> </li>
+                <li> <a href="#">pictures</a> </li>
+            </ul>
+        </nav>
+    </header>
+</div>

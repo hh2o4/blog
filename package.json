@@ -13,6 +13,7 @@
   "author": "hh2o4",
   "license": "ISC",
   "dependencies": {
-    "art-template": "^4.3.2"
+    "art-template": "^4.5.0",
+    "markdown": "^0.5.0"
   }
 }

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{block 'title'}}My Blog{{/block}}</title>
+
+    {{block 'head'}}
+    <link rel="stylesheet" href="../assets/theme/default.css"> <!--这是publish中的articles取得样式地址-->
+    {{/block}}
+
+</head>
+<body>
+    {{block 'content'}}{{/block}}    
+</body>
+</html>

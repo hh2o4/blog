@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Article</title>
+
+    
+<link rel="stylesheet" href= "../assets/markdownLayout/md_original.css">
+<link rel="stylesheet" href= "../assets/theme/original.css">
+
+
+</head>
+<body>
+    
+    <!--header-->
+    <div class="header">
+    <header>
+        <div class="logo"><span>hh2o4</span></div>
+        <nav>
+            <ul>
+                <li> <a href="#">articles</a> </li>
+                <li> <a href="#">contact</a> </li>
+                <li> <a href="#">pictures</a> </li>
+            </ul>
+        </nav>
+    </header>
+</div>
+
+    <!--content-->
+    <div class="content">
+        <h1>[转载]如何在ubuntu14.04中使用ubuntu</h1>
+        <div class="info"><span class="date">发表时间: 2017-04-22</span></div>
+        <article>
+            <h3>安装shadowsocks</h3>
+
+<ul><li><code>sudo apt-get install python-gevent python-pip</code></li><li><code>sudo pip install shadowsocks</code></li><li><code>sudo apt-get install python-m2crypto</code></li></ul>
+
+<h3>配置shadowsocks服务器</h3>
+
+<p>创建一个<code>json</code>文件用于填写服务器，以下为一个示例。</p>
+
+<p><code>json
+{
+  &quot;server&quot;: &quot;xx.xx.xx.xx&quot;,
+  &quot;server_port&quot;: 8388,
+  &quot;local_port&quot;: 1080,
+  &quot;password&quot;: &quot;xxxxxx&quot;,
+  &quot;timeout&quot;: 600,
+  &quot;method&quot;: &quot;xxxxx&quot;
+}
+</code></p>
+
+<h3>启动</h3>
+
+<p><code>sudo sslocal -c YOUR_CONFIG_FILE</code></p>
+        </article>
+    </div>
+
+    <!--footer-->
+    <footer>
+    <div class="copyright">
+        <span>©2017-2018 &nbsp; (o^.^o) &nbsp; hh2o4</span>
+    </div>
+
+    <div class="intro">
+        <span>Themed by hh2o4</span>
+    </div>
+</footer>
+    
+</body>
+</html>
