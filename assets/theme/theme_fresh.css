@@ -5,8 +5,8 @@
 }
 
 body {
-    background-color: #584249;
-    color: white;
+    background:rgba(0,0,0,0.5) url(../images/bg3.jpg);
+    color: black;
 }
 
 a:hover {
@@ -15,12 +15,12 @@ a:hover {
 }
 
 body h1,h2,h3,h4,h5,h6 {
-    color: #FFF7CE;
+    color: black;
 }
 
 .header {
     width: 100%;
-    background-color: #AA3258;
+    background-image: url(../images/header3.jpg);
 }
 
 header, .content {
@@ -30,8 +30,8 @@ header, .content {
 
 
 header {
-    height: 150px;
-    line-height: 150px;
+    height: 250px;
+    line-height: 250px;
     font-size: 20px;
     position: relative;
     margin-bottom: 20px;
@@ -79,6 +79,7 @@ header ul {
 
 .article-list {
     min-height: 900px;
+    margin-top: 70px;
 }
 
 .article-list li{
@@ -93,13 +94,14 @@ header ul {
 
 .article-list a {
     text-decoration: none;
-    color: #FFF7CE;
+    color: black;
     font-size: 25px;
 }
 
 article {
-    border-top: white dashed 2px; 
+    border-top: black dashed 2px; 
     margin-top: 15px;
+    margin-bottom: 50px;
 }
 
 code {
@@ -122,7 +124,7 @@ footer {
     text-align: center;
     width: 60%;
     margin: auto;
-    border-top: solid 2px white;
+    border-top: solid 2px black;
 }
 
 footer p {

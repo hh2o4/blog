@@ -10,17 +10,19 @@
     {{include './header.art'}}
 
     <!--article list-->
-    <div class="content">
-        <ol class="article-list">
-            {{each articles}}
-                <li><a href="{{'./publishes/' + $value['fileName']}}"><span>{{$value['title']}}</span></a><span>{{$value['date']}}</span></li> 
-            {{/each}}
-        </ol>
+    <div class="body">
+        <div class="content">
+            <ol class="article-list">
+                {{each articles}}
+                    <li><a href="{{'./publishes/' + $value['fileName']}}"><span>{{$value['title']}}</span></a><span>{{$value['date']}}</span></li> 
+                {{/each}}
+            </ol>
+        </div>
+
+
+        <!--footer-->
+        {{include './footer.art'}}
     </div>
-
-
-    <!--footer-->
-    {{include './footer.art'}}
 {{/block}}
 
 
