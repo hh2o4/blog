@@ -22,8 +22,10 @@ function createAllHTML() {
         var markdownLayout = config.markdownLayout;
 
         console.log(config);
-
+        var indexPath = "../index.html";
+        
         var data = {
+            indexPath: indexPath,
             theme: theme,
             markdownLayout: markdownLayout,
             title: mdHeader.title,
@@ -96,7 +98,9 @@ function createIndex(mdInfos) {
         });
     }
 
+    var indexPath = "./index.html";
     var data = {
+        indexPath: indexPath,
         articles: articles,
         theme: theme
     };

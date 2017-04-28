@@ -9,6 +9,11 @@ body {
     color: white;
 }
 
+a:hover {
+    font-style: italic;
+    text-decoration: underline;
+}
+
 body h1,h2,h3,h4,h5,h6 {
     color: #FFF7CE;
 }
@@ -22,6 +27,7 @@ header, .content {
     width: 70%;
     margin: auto;
 }
+
 
 header {
     height: 150px;
@@ -61,6 +67,16 @@ header ul {
     margin-right: 300px;
 }
 
+.logo a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo a:hover {
+    text-decoration: none;
+    font-style: normal;
+}
+
 .article-list {
     min-height: 900px;
 }
@@ -98,10 +114,7 @@ li {
     min-height: 600px;
 }
 
-a:hover {
-    font-style: italic;
-    text-decoration: underline;
-}
+
 footer {
 
     height: 50px;
@@ -110,4 +123,15 @@ footer {
     width: 70%;
     margin: auto;
     border-top: solid 2px white;
+}
+
+footer p {
+    line-height: 1.5em;
+    margin: 5px 0px;
+}
+
+@media only screen and (max-width: 640px) {
+    header, .content, footer {
+       width: 95%;
+    }
 }

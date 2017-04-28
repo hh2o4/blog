@@ -1,6 +1,6 @@
 <div class="header">
     <header>
-        <div class="logo"><span>hh2o4</span></div>
+        <div class="logo"><a href="{{indexPath}}"><span>hh2o4</span></a></div>
         <nav>
             <ul>
                 <li> <a href="#">articles</a> </li>
