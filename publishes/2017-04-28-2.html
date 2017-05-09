@@ -79,14 +79,16 @@
 
 <h3>Q016 [js] window下定义的全局变量为什么不能用delete删除？</h3>
 
-<ul><li>全局变量是作为window的属性定义的</li><li>但全局变量这种属性在定义的时候设置的configurable为false，因此用delete删除时会因为无法删除自由属性而返回false。例子如下：
-<code>
+<ul><li>全局变量是作为window的属性定义的</li><li>但全局变量这种属性在定义的时候设置的configurable为false，因此用delete删除时会因为无法删除自由属性而返回false。例子如下：</li></ul>
+
+<p><code>
 var a = 0;
 window.a; //return 0
 delete a; //return false
 delete window.a; //return false
-</code>
-注：delete操作符只有在不能删除自有属性时，返回false，其他情况都返回true;</li></ul>
+</code></p>
+
+<p>注：delete操作符只有在不能删除自有属性时，返回false，其他情况都返回true;</p>
         </article>
     </div>
 
