@@ -72,6 +72,15 @@ header ul {
     text-decoration: none;
 }
 
+@media screen and (max-width: 1000px) {
+    header ul {
+        position: relative;
+        line-height: 0;
+        top: -60px;
+        left: 5px;
+    }
+}
+
 .logo a:hover {
     text-decoration: none;
     font-style: normal;
