@@ -23,3 +23,9 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
+<script setup>
+import { useData } from 'vitepress';
+
+const { params } = useData();
+console.log('page data: ', params);
+</script>

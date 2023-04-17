@@ -1,4 +1,8 @@
 import { defineConfig } from 'vitepress';
+// import { useData } from 'vitepress';
+
+// const { params } = useData();
+// console.log('page data: ', params);
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -6,6 +10,7 @@ export default defineConfig({
   description: "Recordings about what I've done.",
   outDir: '../docs',
   base: '/blog/',
+  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
