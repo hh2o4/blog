@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
   title: "Hannah Huang's Blog",
   description: "Recordings about what I've done.",
-  outDir: '../dist',
+  outDir: '../docs',
   base: '/blog/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
