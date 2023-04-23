@@ -1,3 +1,9 @@
+---
+title: Vue
+author: hh2o4
+updated: 1900-01-01 00:00:00
+---
+
 # Markdown Extension Examples
 
 This page demonstrates some of the built-in markdown extensions provided by VitePress. test
