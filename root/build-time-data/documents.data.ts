@@ -15,7 +15,6 @@ export default {
         title = 'title',
       } = post.frontmatter;
       const { url } = post;
-      console.log('!!!!!!!!!!!! ', updated);
       const timeKey = updated.slice(0, 10);
 
       if (!catalogueWithAuthor[author]) {
