@@ -3,7 +3,7 @@ outline: deep
 author: hh2o4
 title: react introduction
 updated: 1900/01/01 00:00:00
-test: ffffff
+test: ffffffddd
 ---
 
 # Runtime API Examples
