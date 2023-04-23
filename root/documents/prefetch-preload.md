@@ -2,7 +2,7 @@
 title: <link rel="prefetch" href="xxx">是什么作用， 和rel="preload"有什么区别？
 author: hh2o4_3
 label: html
-updated: 2021-11-05 13:41:39 +0800
+updated: 2023-04-23 16:49:27 +0800
 ---
 
 ### 相关前提

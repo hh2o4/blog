@@ -2,7 +2,7 @@
 author: hh2o4_4
 title: Some surprising behavior of garbage collection in JS
 label: js
-updated: 2023-04-03 00:00:00 +0800
+updated: 2023-04-23 16:49:27 +0800
 ---
 
 ### Reviewing the garbage collection mechanism of JavaScript

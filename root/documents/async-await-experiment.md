@@ -2,7 +2,7 @@
 author: hh2o4_1
 title: 记一次Async/Await使用过程中的思维误区
 label: js
-updated: 2022-03-03 00:00:00 +0800
+updated: 2023-04-23 16:49:27 +0800
 ---
 
 对于一个 promise 对象，我们都可以用 async/await 语法糖将其回调操作写成同步的形式，但是使用过程中，陷入了一个误区，这里记录一下。
