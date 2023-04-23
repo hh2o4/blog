@@ -8,12 +8,12 @@
  * -------------------------------------------------------------------------- */
 
 :root {
-  --vp-c-brand: #4fcfdd;
+  --vp-c-brand: #35b2c0;
   --vp-c-brand-light: #6fdae5;
   --vp-c-brand-lighter: #91e1e9;
   --vp-c-brand-lightest: #b7f7fd;
-  --vp-c-brand-dark: #0ec2d3;
-  --vp-c-brand-darker: #0ec2d3;
+  --vp-c-brand-dark: #35b2c0;
+  --vp-c-brand-darker: #35b2c0;
   --vp-c-brand-dimm: rgba(100, 108, 255, 0.08);
 }
 
