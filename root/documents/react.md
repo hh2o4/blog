@@ -2,7 +2,7 @@
 outline: deep
 author: hh2o4
 title: react introduction
-updated: 2023-04-23 11:39:07 +0800
+updated: 2023-04-23 11:39:52 +0800
 test: ffffffddd
 ---
 
