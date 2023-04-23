@@ -40,7 +40,7 @@ function setCatalogue(value) {
   </div>
   <div>
     <div v-for="(catalogue, index) in Object.keys(postsList)" :key="index">
-      <h1>{{ catalogue }}</h1>
+      <h3>{{ catalogue }}</h3>
       <ul>
         <li
           v-for="(document, documentIndex) in postsList[catalogue]"

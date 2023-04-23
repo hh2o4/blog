@@ -1,4 +1,8 @@
 import { defineConfig } from 'vitepress';
+import {
+  getDocumentSidebarConfig,
+  getNavBarConfig,
+} from '../scripts/setSidebar';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -9,40 +13,27 @@ export default defineConfig({
   lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      {
-        text: 'Documents',
-        link: '/documents/react',
-        activeMatch: '/documents/',
-      },
-      {
-        text: 'Contribution Guides',
-        link: '/contribution-guides/index',
-        activeMatch: '/contribution-guides/',
-      },
-      {
-        text: 'Catalogue',
-        link: '/custom-pages/catalogue',
-      },
-    ],
+    // nav: [
+    //   { text: 'Home', link: '/' },
+    //   {
+    //     text: 'Documents',
+    //     link: '/documents/index',
+    //     activeMatch: '/documents/',
+    //   },
+    //   {
+    //     text: 'Contribution Guides',
+    //     link: '/contribution-guides/index',
+    //     activeMatch: '/contribution-guides/',
+    //   },
+    //   {
+    //     text: 'Catalogue',
+    //     link: '/custom-pages/catalogue',
+    //   },
+    // ],
+    nav: getNavBarConfig(),
 
     sidebar: {
-      '/documents/': [
-        {
-          text: 'Framework',
-          items: [
-            {
-              text: 'react',
-              link: '/documents/react.md',
-            },
-            {
-              text: 'vue',
-              link: '/documents/vue.md',
-            },
-          ],
-        },
-      ],
+      '/documents/': getDocumentSidebarConfig(),
       '/contribution-guides/': [
         {
           text: 'Introduction',
@@ -50,18 +41,6 @@ export default defineConfig({
         },
       ],
     },
-    // [
-    //   {
-    //     text: 'Examples',
-    //     items: [
-    //       { text: 'Markdown Examples', link: '/markdown-examples' },
-    //       { text: 'Runtime API Examples', link: '/api-examples' },
-    //     ],
-    //   },
-    // ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
-    ],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/hh2o4/blog' }],
   },
 });

@@ -1,6 +1,7 @@
 ---
 layout: doc
 sidebar: false
+lastUpdated: false
 ---
 
 <script lang="ts" setup>

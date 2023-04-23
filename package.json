@@ -9,5 +9,8 @@
     "less-loader": "^11.1.0",
     "vitepress": "^1.0.0-alpha.65",
     "vue": "^3.2.47"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3"
   }
 }
