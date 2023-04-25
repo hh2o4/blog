@@ -13,23 +13,6 @@ export default defineConfig({
   lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    // nav: [
-    //   { text: 'Home', link: '/' },
-    //   {
-    //     text: 'Documents',
-    //     link: '/documents/index',
-    //     activeMatch: '/documents/',
-    //   },
-    //   {
-    //     text: 'Contribution Guides',
-    //     link: '/contribution-guides/index',
-    //     activeMatch: '/contribution-guides/',
-    //   },
-    //   {
-    //     text: 'Catalogue',
-    //     link: '/custom-pages/catalogue',
-    //   },
-    // ],
     nav: getNavBarConfig(),
 
     sidebar: {
@@ -42,5 +25,8 @@ export default defineConfig({
       ],
     },
     socialLinks: [{ icon: 'github', link: 'https://github.com/hh2o4/blog' }],
+    search: {
+      provider: 'local',
+    },
   },
 });
