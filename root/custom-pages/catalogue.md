@@ -1,7 +1,8 @@
 ---
-layout: doc
+layout: page
 sidebar: false
 lastUpdated: false
+hideSlot: true
 ---
 
 <script lang="ts" setup>

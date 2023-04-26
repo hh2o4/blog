@@ -5,11 +5,7 @@ label: js
 updated: 2023-04-25 14:54:13 +0800
 ---
 
-<iframe height="300" style="width: 100%;" scrolling="no" title="vue-version" src="https://codepen.io/hh2o4/embed/Exyzoeo?default-tab=html%2Cresult&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href="https://codepen.io/hh2o4/pen/Exyzoeo">
-  vue-version</a> by hh2o4 (<a href="https://codepen.io/hh2o4">@hh2o4</a>)
-  on <a href="https://codepen.io">CodePen</a>.
-</iframe>
+{{ $frontmatter.layout }}
 
 对于一个 promise 对象，我们都可以用 async/await 语法糖将其回调操作写成同步的形式，但是使用过程中，陷入了一个误区，这里记录一下。
 
