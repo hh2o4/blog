@@ -2,7 +2,7 @@
 author: hh2o4_1
 title: 记一次Async/Await使用过程中的思维误区
 label: js
-updated: 2023-04-25 14:54:13 +0800
+updated: 2023-04-26 14:21:06 +0800
 ---
 
 {{ $frontmatter.layout }}
